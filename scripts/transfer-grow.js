@@ -28,7 +28,7 @@ async function main() {
 
   console.log("Transferring GROW tokens");
   const amount = hre.ethers.parseUnits("1000000", 18); // 1,000,000 GROW tokens
-  //await growToken.transfer(pubKey.address, amount);
+  await growToken.transfer(pubKey.address, amount);
 
   console.log(`Transferred ${amount} GROW to ${pubKey.address}`);
 
