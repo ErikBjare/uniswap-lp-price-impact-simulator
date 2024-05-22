@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "uniswap-lp-price-impact-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uniswap-python = {git = "https://github.com/uniswap-python/uniswap-python.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
