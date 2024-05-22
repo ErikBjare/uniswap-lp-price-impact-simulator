@@ -8,6 +8,9 @@ Scripts for simulating adding LP positions to a Uniswap pool and checking how it
 npm install
 poetry install
 
+# compile mock contracts (just so we get the ERC20 ABI)
+npx hardhat compile
+
 # set up fork of mainnet
 npx hardhat node --port 10999
 
