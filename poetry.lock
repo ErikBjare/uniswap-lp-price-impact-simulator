@@ -1548,7 +1548,7 @@ web3 = "^6.0"
 type = "git"
 url = "https://github.com/uniswap-python/uniswap-python.git"
 reference = "HEAD"
-resolved_reference = "7f4d5c740fefd8355c2837ee2e7e3c6f0c455980"
+resolved_reference = "4f15d2ef7e9d7cb502e6b2ce44772fae46d18781"
 
 [[package]]
 name = "urllib3"
